@@ -1,0 +1,30 @@
+.tittle {
+  text-align: center;
+  font-size: 25px;
+  color: rgb(161, 18, 116);
+}
+.weekBlock {
+  display: flex;
+  justify-content: space-around;
+  color: rgb(8, 0, 158);
+}
+.day {
+  display: flex;
+  justify-content: space-around;
+  margin: 5px 0px 5px 0px;
+}
+.minMaxDay {
+  span {
+    font-size: 23px;
+    color: rgb(216, 32, 32);
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    li {
+      margin-top: 7px;
+      text-align: center;
+      color: rgb(54, 0, 99);
+    }
+  }
+}

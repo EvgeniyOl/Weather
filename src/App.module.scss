@@ -1,0 +1,59 @@
+.container::after {
+  content: "";
+  background-image: url("./assets/beautiful-aerial-shot-of-fronalpstock-mountains-in-switzerland-under-the-beautiful-pink-and-blue-sky.jpg");
+  background-size: 100vw;
+  height: 100vh;
+  opacity: 0.6;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+.header {
+  color: rgb(12, 61, 85);
+}
+.body {
+  margin: 0px 20px 10px 20px;
+  ul {
+    list-style: none;
+    margin-top: 20px;
+    padding: 0px;
+    li {
+      font-size: 22px;
+      margin-top: 10px;
+      display: flex;
+      padding: 0px 100px;
+      justify-content: space-between;
+    }
+  }
+}
+.temperature {
+  width: 90px;
+  height: 80px;
+  border: 1px solid rgb(237, 0, 0);
+  border-radius: 10px;
+  background-color: rgba(65, 181, 142, 0.866);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+.tempIconBlock {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.descImgBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  img {
+    width: 150px;
+    margin: 0 auto;
+  }
+  p {
+    text-align: center;
+  }
+}
